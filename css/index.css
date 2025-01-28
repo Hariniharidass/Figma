@@ -1,0 +1,234 @@
+body {
+    width: 1600px;
+    height: 920px;
+}
+
+.medi {
+    /* Medi. */
+    position: absolute;
+    width: 95.25px;
+    height: 40.61px;
+    left: 80px;
+    top: 37px;
+    color: #0A1B32;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    /* or 48px */
+    letter-spacing: -0.02em;
+    color: #0A1B32;
+}
+
+span {
+    color: #4F56F1;
+}
+
+nav>ul {
+    list-style-type: none;
+}
+
+nav>ul>li,
+.sign-up,
+.sign-in {
+    float: left;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 19px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    /* Home */
+    position: absolute;
+    width: 45px;
+    height: 24px;
+    left: 272.76px;
+    top: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.about {
+    /* About */
+    position: absolute;
+    width: 44px;
+    height: 24px;
+    left: 355.76px;
+    top: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.blog {
+    /* Blog */
+    position: absolute;
+    width: 33px;
+    height: 24px;
+    left: 439.76px;
+    top: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.contact {
+    /* Contact */
+    position: absolute;
+    width: 58px;
+    height: 24px;
+    left: 510.76px;
+    top: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+.sign-up {
+    position: absolute;
+    width: 120px;
+    height: 59.65px;
+    left: 1412.26px;
+    top: 48px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    background: #4F56F1;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.sign-in {
+    /* Sign In */
+    position: absolute;
+    width: 120px;
+    height: 59.65px;
+    left: 1290.96px;
+    top: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    border: none;
+    background-color: #FFFFFF;
+    color: #1B0A42;
+    border-radius: 6px;
+}
+
+.content-and-image {
+    display: grid;
+    grid-template-areas:
+        "content image";
+    grid-template-columns: 1fr 1fr;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.content-title {
+    /* Stay Productive & Work Remotely */
+    position: absolute;
+    width: 498px;
+    height: 152px;
+    left: 200px;
+    top: 180.71px;
+    font-family: 'Ramaraja';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+
+
+.content-text {
+    position: absolute;
+    width: 538.08px;
+    height: 96px;
+    left: 200px;
+    top: 410.71px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+
+.content-button {
+    /* Learn More */
+    position: absolute;
+    width: 152px;
+    height: 63.82px;
+    left: 200px;
+    top: 588.71px;
+    border: none;
+    background: #4F56F1;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.image {
+    position: absolute;
+    width: 653px;
+    height: 604px;
+    left: 853px;
+    top: 186px;
+}
